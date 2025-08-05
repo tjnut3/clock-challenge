@@ -22,13 +22,13 @@ function Quote() {
 
     return (
         <div className="grid grid-cols-[1fr_auto] grid-rows-2 gap-4">
-            <div className=" text-white font-Inter text-2xl leading-normal">
+            <div className=" text-white font-Inter text-[18px] leading-normal">
                 {quote}
             </div>
             <div className="row-span-2 mt-2">
                 <img src="/assets/desktop/icon-refresh.svg" alt="refresh" className="cursor-pointer" onClick={fetchQuote}/>
             </div>
-            <div className="text-white font-Inter font-bold text-2xl">
+            <div className="text-white font-Inter font-bold text-[18px]]">
                 {author}
             </div>
         </div>

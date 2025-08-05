@@ -1,5 +1,9 @@
 @tailwind utilities;
 
 html {
-  @apply bg-[url("./assets/desktop/bg-image-daytime.jpg")] bg-cover;
+  @apply min-h-screen bg-[url("./assets/desktop/bg-image-daytime.jpg")] bg-cover;
+}
+
+body, #root {
+  @apply min-h-screen h-full;
 }
