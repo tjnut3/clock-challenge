@@ -1,0 +1,5 @@
+@tailwind utilities;
+
+html {
+  @apply bg-[url("./assets/desktop/bg-image-daytime.jpg")] bg-cover;
+}

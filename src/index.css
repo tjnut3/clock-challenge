@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Inter;
+  src: url('../src/assets/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-Inter: Inter, regular;
+}
