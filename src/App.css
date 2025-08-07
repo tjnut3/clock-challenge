@@ -1,7 +1,7 @@
 @tailwind utilities;
 
 html {
-  @apply min-h-screen bg-[url("./assets/desktop/bg-image-daytime.jpg")] bg-cover;
+  
 }
 
 body, #root {
